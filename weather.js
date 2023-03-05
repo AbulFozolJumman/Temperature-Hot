@@ -23,6 +23,4 @@ document.getElementById("search-btn").addEventListener("click", function () {
     const searchInput = document.getElementById("search-input");
     const city = searchInput.value;
     loadWeather(city);
-})
-
-loadWeather("tokyo");
+});
